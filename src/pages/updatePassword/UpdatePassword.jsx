@@ -22,7 +22,7 @@ function UpdatePassword() {
         <div className={Style.formWrapper}>
             <div className={`pt-5 ${Style.formDiv}`}>
                <label htmlFor="password">Password</label>
-               <input type="text" placeholder="Enter new password" name="password" id="password" autoComplete="off" value="" />
+               <input type="text" placeholder="Enter new password" name="password" id="password"  />
             </div>
             <div className={`text-center mt-4 mb-3`}>
                <Button label="Update" type="submit" cssClass={Style.btnBlack} />

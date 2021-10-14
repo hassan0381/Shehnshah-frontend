@@ -1,0 +1,21 @@
+.home{
+   background-color: #F9F9F9;
+   min-height: 100vh;
+}
+.serviceLink{
+   color: inherit;
+}
+.serviceLink:hover{
+   text-decoration: none;
+   color: inherit;
+}
+.topHeading{
+   font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  border-bottom: 1px solid #E2E2E2;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: #F9F9F9;
+}

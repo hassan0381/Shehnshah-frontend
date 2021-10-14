@@ -25,11 +25,13 @@ function Otp() {
                 value={value}
                 onChange={setValue} 
             />
-            <Link to="/verification">
+            
             <div className={`text-center pt-5`}>
+            <Link to="/verification">
               <button className="btnBlack">Send</button>
-            </div>
             </Link>
+            </div>
+            
         </div>
 
     )

@@ -50,7 +50,7 @@ body{
   font-weight: 300;
 }
 .pb-85{
-  padding-bottom: 85px;
+  padding-bottom: 75px;
 }
 .PhoneInputCountry{
   padding-bottom: 8px;
@@ -139,4 +139,29 @@ body{
 }
 .MuiButton-textPrimary{
   color: #000 !important;
+}
+.react-tabs__tab-list{
+  display: flex;
+  justify-content: space-between;
+}
+.react-tabs__tab--selected{
+  background: transparent !important;
+  border: none !important;
+  color: #2181F2 !important;
+  border-bottom: 3px solid #2181F2 !important;
+}
+.react-tabs__tab-list{
+  border-bottom: none !important;
+  top: 76px;
+  position: sticky;
+  background: #F9F9F9;
+  z-index: 2;
+}
+.react-tabs__tab{
+  display: flex !important;
+  flex: 1;
+  justify-content: center;
+  padding:15px 10px 10px !important;
+  font-size: 18px;
+  font-weight: 500;
 }

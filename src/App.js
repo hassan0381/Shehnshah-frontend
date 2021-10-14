@@ -18,6 +18,8 @@ import UpdateNumber from "./pages/updateNumber/UpdateNumber";
 import UpdatePassword from "./pages/updatePassword/UpdatePassword";
 import ConfirmBooking from "./pages/confirmBooking/ConfirmBooking";
 import Favorites from "./pages/favorites/Favorites";
+import Bookings from "./pages/bookings/Bookings";
+import MyVehicle from "./pages/myVehicle/MyVehicle";
 
 
 
@@ -40,6 +42,9 @@ function App() {
                 </Route>
                 <Route path="/booking">
                   <Booking />
+                </Route>
+                <Route path="/bookings">
+                  <Bookings />
                 </Route>
                 <Route path="/favorites">
                   <Favorites />
@@ -76,6 +81,9 @@ function App() {
                 </Route>
                 <Route path="/confirmBooking">
                   <ConfirmBooking />
+                </Route>
+                <Route path="/myVehicle">
+                  <MyVehicle />
                 </Route>
               </div>
           </div>

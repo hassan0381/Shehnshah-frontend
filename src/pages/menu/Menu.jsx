@@ -42,6 +42,7 @@ function Menu() {
               <div className={Style.bottomText}>Contact us</div>
            </div>
         </div> 
+        <Link to="/favorites" >
         <div className={Style.favorites}>
            <div className={Style.leftFavorite}>
               <div className={Style.heading}>Favorites</div>
@@ -51,6 +52,7 @@ function Menu() {
               <img src={BadgeIcon} alt="icon" />
            </div>
         </div>
+        </Link>
         <div className={Style.favorites}>
            <div className={Style.leftFavorite}>
               <div className={Style.heading}>Personal</div>
@@ -61,6 +63,7 @@ function Menu() {
               <img src={NotesIcon} alt="icon" />
            </div>
         </div>
+        <Link to="/myVehicle">
         <div className={Style.vehicle}> 
            <img src={CarIcon} alt="car" />
            <div className={Style.rightVehicle}>
@@ -69,16 +72,17 @@ function Menu() {
               <div className={Style.numberPlate}>C19001 Sharjah</div>
            </div>
         </div>
+        </Link>
         <div className={Style.Ballance}>
-            <div className={`d-flex pb-3`}>
+            <div>
                <img src={BallanceIcon} alt="balance" />
                <div className={Style.textBallance}>Legal</div>
             </div>
-            <div className={`d-flex pb-3`}>
+            <div>
                <img src={ConditionIcon} alt="notes" />
                <div className={Style.textBallance}>Terms & conditions</div>
             </div>
-            <div className={`d-flex pb-3`}>
+            <div>
                <img src={SettingIcon} alt="setting" />
                <div className={Style.textBallance}>Settings</div>
             </div>

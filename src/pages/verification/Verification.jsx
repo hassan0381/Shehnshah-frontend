@@ -20,11 +20,12 @@ function Verification() {
             <div className={`${Style.heading} pt-3`}>Enter Passcode</div>
             <div className={`${Style.subHeading} pt-2 text-center`}>OTP has been sent to your mobile <br /> number.Please enter Passcode</div>
             <ReactCodeInput fields={4} className={`d-flex justify-content-center mt-5 w-100`} />
-            <Link to="/home">
+            
             <div className={`text-center pt-5`}>
+            <Link to="/services">
               <button className="btnBlack">Verify</button>
-            </div>
             </Link>
+            </div>
             <div className={Style.headingSm}>if you don't receive a code! <Link className={Style.resend}>Resend</Link></div>
         </div>
         </div>

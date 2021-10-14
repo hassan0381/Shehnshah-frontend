@@ -40,6 +40,9 @@
    background: #D9D8D8;
    border-radius: 50%;
 }
+.navListActive span{
+   color: #2181F2;
+}
 .navListActive .navImg{
    filter: invert(37%) sepia(92%) saturate(1543%) hue-rotate(197deg) brightness(95%) contrast(99%);
 }

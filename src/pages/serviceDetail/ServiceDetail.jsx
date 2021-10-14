@@ -48,11 +48,12 @@ function ServiceDetail() {
                   <div><span className="bottomLabel">Phone: </span>+97 123 4567</div>
                </div>
             </div>
-            <Link to="/slots">
+            
             <div className="text-center pt-5 pb-5">
+            <Link to="/slots">
               <button className="btnBlack">See Booking</button>
-            </div>
             </Link>
+            </div>
             
          </div>
       </>
